@@ -10,7 +10,7 @@ Add rust-carbon to your Cargo.toml.
 
 ```toml
 [dependencies]
-carbon = "0.1.*"
+carbon = { git = "https://github.com/markkimsal/rust-carbon.git", branch = "master" }
 ```
 
 And put this in your crate root.
