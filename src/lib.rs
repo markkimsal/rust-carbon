@@ -3,6 +3,7 @@ extern crate time_macros;
 
 mod start;
 mod end;
+mod format;
 
 pub use time::OffsetDateTime;
 pub use time_macros::datetime;

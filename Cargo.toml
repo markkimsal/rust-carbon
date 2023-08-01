@@ -11,3 +11,6 @@ documentation = "http://gong023.github.io/rust-carbon/carbon/index.html"
 [dependencies]
 time = "0.3.22"
 time-macros = "*"
+
+[features]
+default = ["time/formatting"]
