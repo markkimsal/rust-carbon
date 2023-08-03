@@ -81,6 +81,19 @@ impl DateTime {
     }
 }
 
+
+impl DateTime {
+    pub fn year(&self ) -> i32 {
+        self.tm.year()
+    }
+    pub fn month(&self ) -> u8 {
+        self.tm.month() as u8
+    }
+    pub fn day(&self ) -> u8 {
+        self.tm.day() as u8
+    }
+}
+
 // https://en.wikipedia.org/wiki/Zeller's_congruence#Implementation_in_software
 // fn zeller_congruence(y: f32, m: f32, d: f32) -> i32 {
 //     let mut yy = 1900.0 + y;
